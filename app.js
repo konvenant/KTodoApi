@@ -3,9 +3,9 @@ const express = require('express');
 const cors = require('cors'); // Enable CORS for React development
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-const userRouter = require('../routers/userRouter');
-const categoriesRouter = require("/routers/categoriesRouter");
-const todoRouter = require("../routers/todoRouter");
+const userRouter = require('./routers/userRouter');
+const categoriesRouter = require("./routers/categoriesRouter");
+const todoRouter = require("./routers/todoRouter"); 
 require('dotenv').config();
 
 const app = express();
